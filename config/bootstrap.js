@@ -29,6 +29,35 @@ module.exports.bootstrap = async function(done) {
 
   // Don't forget to trigger `done()` when this bootstrap function's logic is finished.
   // (otherwise your server will never lift, since it's waiting on the bootstrap)
-  return done();
 
+  // var createdDechet1 = Dechet.create({
+  //   label: 'Label du dechet1',
+  //   type: 'Solide'
+  // }).fetch().exec(function(){
+  //
+  //
+  //   Puce.create({
+  //     caracteristique: 'caract 1',
+  //     dechet: createdDechet1.id
+  //   }).exec(function(){
+  //
+  //
+  //     var createdDechet2 = Dechet.create({
+  //       label: 'Label du dechet2',
+  //       type: 'Solide'
+  //     }).fetch().exec(function(){
+  //
+  //
+  //       Puce.create({
+  //         caracteristique: 'caract 2',
+  //         dechet: createdDechet2.id
+  //       }).exec(function(){
+  //
+  //         return done();
+  //       });
+  //     });
+  //   });
+  // });
+
+  return await done();
 };

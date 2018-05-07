@@ -1,0 +1,40 @@
+.search{
+  margin-top: 30px;
+  width: 100%;
+}
+
+.search-title{
+  text-align: center;
+  background-color: #0c8da0;
+  color: white;
+}
+
+.search-content{
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.search-box{
+  float: left;
+  width: 50%;
+  box-sizing: border-box;
+}
+
+
+.search-box div {
+  width: 100%;
+  max-width: 200px;
+  margin: auto;
+}
+
+.search-box h3{
+  color: #0c8da0;
+}
+
+.search-box h4{
+  color: cadetblue;
+}
+
+
+

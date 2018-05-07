@@ -28,6 +28,10 @@ module.exports.routes = {
     view: 'pages/homepage'
   },
 
+  '/enregistrer/puce': {
+    view: 'pages/register'
+  },
+
   /***************************************************************************
   *                                                                          *
   * More custom routes here...                                               *
@@ -44,7 +48,11 @@ module.exports.routes = {
   //  ╠═╣╠═╝║  ║╣ ║║║ ║║╠═╝║ ║║║║║ ║ ╚═╗
   //  ╩ ╩╩  ╩  ╚═╝╝╚╝═╩╝╩  ╚═╝╩╝╚╝ ╩ ╚═╝
 
-
+  'POST /locate': 'Localisation.Locate',
+  'POST /create/puce' : 'Puce.create',
+  'POST /create/dechet': 'Dechet.create',
+  'GET /find/puces': 'Puce.fetch',
+  'GET /findOne/puce': 'Puce.fetchOne'
 
   //  ╦ ╦╔═╗╔╗ ╦ ╦╔═╗╔═╗╦╔═╔═╗
   //  ║║║║╣ ╠╩╗╠═╣║ ║║ ║╠╩╗╚═╗
