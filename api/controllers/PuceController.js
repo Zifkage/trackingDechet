@@ -52,10 +52,7 @@ module.exports = {
       });
 
     });
-
-    Puce.create({
-
-    })
+    
   }
 
 };

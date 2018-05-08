@@ -1,13 +1,26 @@
 <div class="content">
-  <form method="post" action="/puce">
-    <h2>Enregistrer puce</h2>
+  <form id="dechetForm" >
+    <h2>Enregistrer dechet</h2>
     <div class="form-group">
-      <label for="id">Id</label>
-      <input name="idP" class="form-control" id="idP" type="text">
+      <label for="label">Label</label>
+      <input name="label" class="form-control" id="label" type="text">
     </div>
     <div>
-      <div><label for="carac">Caractéristique</label></div>
-      <textarea name="carac" class="form-control" id="carac"></textarea>
+      <div><label for="type">Type</label></div>
+      <textarea name="type" class="form-control" id="type"></textarea>
+    </div>
+    <button class="btn">Valider</button>
+  </form>
+
+  <form id="puceForm">
+    <h2>Enregistrer puce</h2>
+    <div class="form-group">
+      <label for="idDechet">Id dechet</label>
+      <input name="idDechet" class="form-control" id="idDechet" type="text">
+    </div>
+    <div>
+      <div><label for="caracteristique">Caractéristique</label></div>
+      <textarea name="caracteristique" class="form-control" id="caracteristique"></textarea>
     </div>
     <button class="btn">Valider</button>
   </form>
