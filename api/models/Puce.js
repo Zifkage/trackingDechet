@@ -17,6 +17,18 @@ module.exports = {
       type: 'string'
     },
 
+    label: {
+      type: 'string'
+    },
+
+    type: {
+      type: 'string'
+    },
+
+    idPuce: {
+      type: 'string'
+    },
+
     //  ╔═╗╔╦╗╔╗ ╔═╗╔╦╗╔═╗
     //  ║╣ ║║║╠╩╗║╣  ║║╚═╗
     //  ╚═╝╩ ╩╚═╝╚═╝═╩╝╚═╝
@@ -29,10 +41,6 @@ module.exports = {
     localisations: {
       collection: 'localisation',
       via: 'puce'
-    },
-
-    dechet: {
-      model: 'dechet'
     }
 
   },

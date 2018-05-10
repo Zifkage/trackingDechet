@@ -48,16 +48,17 @@ module.exports.routes = {
   //  ╠═╣╠═╝║  ║╣ ║║║ ║║╠═╝║ ║║║║║ ║ ╚═╗
   //  ╩ ╩╩  ╩  ╚═╝╝╚╝═╩╝╩  ╚═╝╩╝╚╝ ╩ ╚═╝
 
-  'POST /locate': 'Localisation.Locate',
+  'POST /locate': 'Localisation.locate',
   'POST /create/puce' : 'Puce.create',
   'POST /create/dechet': 'Dechet.create',
   'GET /find/puces': 'Puce.fetch',
-  'GET /findOne/puce': 'Puce.fetchOne'
+  'GET /findOne/puce': 'Puce.fetchOne',
+  'GET /get/apikey': 'Puce.apikey',
+  'GET /get/localisation': 'Localisation.getLocalisation'
 
   //  ╦ ╦╔═╗╔╗ ╦ ╦╔═╗╔═╗╦╔═╔═╗
   //  ║║║║╣ ╠╩╗╠═╣║ ║║ ║╠╩╗╚═╗
   //  ╚╩╝╚═╝╚═╝╩ ╩╚═╝╚═╝╩ ╩╚═╝
-
 
   //  ╔╦╗╦╔═╗╔═╗
   //  ║║║║╚═╗║
