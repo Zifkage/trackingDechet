@@ -54,7 +54,8 @@ module.exports.routes = {
   'GET /find/puces': 'Puce.fetch',
   'GET /findOne/puce': 'Puce.fetchOne',
   'GET /get/apikey': 'Puce.apikey',
-  'GET /get/localisation': 'Localisation.getLocalisation'
+  'GET /get/localisation': 'Localisation.getLocalisation',
+  'GET /get/trackData': 'Localisation.getTrackData'
 
   //  ╦ ╦╔═╗╔╗ ╦ ╦╔═╗╔═╗╦╔═╔═╗
   //  ║║║║╣ ╠╩╗╠═╣║ ║║ ║╠╩╗╚═╗
